@@ -1,109 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NexFlix Error</title>
+
 <style>
-html,body{
-margin:0!important;
-padding:0!important;
-width:100%!important;
-height:100%!important;
-overflow:hidden!important;
-background:#050505!important;
-}
-
-.nx-error{
-position:fixed;
-top:0;
-left:0;
-width:100vw;
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-background:#050505;
-font-family:Segoe UI,sans-serif;
-text-align:center;
-color:#fff;
-overflow:hidden;
-z-index:999999;
-}
-
-.nx-error:before{
-content:"";
-position:absolute;
-width:700px;
-height:700px;
-background:#e50914;
-border-radius:50%;
-filter:blur(180px);
-opacity:.12;
-bottom:-350px;
-left:50%;
-transform:translateX(-50%);
-}
-
-.nx-box{
-position:relative;
-z-index:2;
-max-width:420px;
-padding:20px;
-}
-
-.nx-logo{
-font-size:90px;
-font-weight:900;
-line-height:1;
-color:#e50914;
-text-shadow:0 0 25px #e50914;
-margin-bottom:25px;
-}
-
-.nx-code{
-font-size:72px;
-font-weight:800;
-line-height:1;
-margin-bottom:20px;
-}
-
-.nx-title{
-font-size:28px;
-font-weight:700;
-margin-bottom:15px;
-}
-
-.nx-text{
-font-size:16px;
-line-height:1.7;
-color:#a0a0a0;
-margin-bottom:30px;
-}
-
-.nx-btn{
-display:inline-block;
-padding:14px 36px;
-background:#e50914;
-color:#fff!important;
-text-decoration:none!important;
-border-radius:40px;
-font-weight:700;
-box-shadow:0 0 25px rgba(229,9,20,.45);
-}
+html,body{margin:0;padding:0;width:100%;height:100%;background:#050505}
+.nx-error{position:fixed;inset:0;display:flex;justify-content:center;align-items:center;background:#050505;color:#fff;font-family:Arial,sans-serif;text-align:center}
+.nx-box{max-width:420px;padding:20px}
+.nx-logo{font-size:90px;font-weight:900;color:#e50914;text-shadow:0 0 25px #e50914}
+.nx-code{font-size:72px;font-weight:700;margin:10px 0}
+.nx-title{font-size:28px;font-weight:700}
+.nx-text{color:#aaa;margin:15px 0 30px;line-height:1.6}
+.nx-btn{display:inline-block;padding:14px 36px;background:#e50914;color:#fff;text-decoration:none;border-radius:40px}
 </style>
+</head>
+<body>
 
 <div class="nx-error">
 <div class="nx-box">
-
 <div class="nx-logo">N</div>
-
 <div class="nx-code">404</div>
-
 <div class="nx-title">Content Not Found</div>
-
-<div class="nx-text">
-The page you're looking for doesn't exist<br>
-or has been removed.
-</div>
-
-<a class="nx-btn" href="https://rnexflix.top/">
-Back To NexFlix
-</a>
-
+<div class="nx-text">The page you're looking for doesn't exist or has been removed.</div>
+<a class="nx-btn" href="https://rnexflix.top/">Back To NexFlix</a>
 </div>
 </div>
+
+</body>
+</html>
